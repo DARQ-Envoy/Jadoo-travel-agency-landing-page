@@ -1,0 +1,30 @@
+$red:#ff0000;
+$black:#000;
+$orange:rgb(85.49%,40.78%,5.88%);
+$goodOrange:#FFA500;
+$darkblue:#12128d;
+$darkerblue:#121257;
+
+$spacing:(1,2,3,4,5);
+
+@each $space in $spacing{
+    .m#{$space}{
+        margin: #{$space}rem;
+    }
+    .my#{$space}{
+        margin: 0 #{$space}rem;
+    }
+    .mz#{$space}{
+        margin:  #{$space}rem 0;
+    }
+
+    .p#{$space}{
+        padding: #{$space}rem;
+    }
+    .py#{$space}{
+        padding: 0 #{$space}rem;
+    }
+    .pz#{$space}{
+        padding: #{$space}rem 0;
+    }
+}
