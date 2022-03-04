@@ -299,7 +299,7 @@ body {
 }
 
 .main-main {
-  background: url("/My-first assignment/assets/img/hero/hero-bg.svg") no-repeat;
+  background: url("hero-bg.svg") no-repeat;
 }
 
 .main-container {
@@ -316,7 +316,7 @@ body {
   text-align: center;
   position: relative;
   width: 100%;
-  background: url("/my-first assignment/assets/img/category/shape.svg") no-repeat;
+  background: url("shape.svg") no-repeat;
   background-position: top right;
 }
 
@@ -433,7 +433,7 @@ body {
 }
 
 .destination {
-  background: url("/My-first assignment/img/dest/shape.svg") no-repeat;
+  background: url("shape.svg") no-repeat;
   background-position: center right;
   margin: 8% 0;
 }
@@ -587,7 +587,7 @@ body {
   width: 150%;
   position: absolute;
   top: -60%;
-  background: url("/My-first assignment/assets/img/steps/bg.png") no-repeat;
+  background: url("bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
   left: 30%;
@@ -885,7 +885,7 @@ body {
   content: '';
   width: 10rem;
   height: 10rem;
-  background: url("/My-first assignment/assets/img/category/shape.svg") no-repeat;
+  background: url("shape.svg") no-repeat;
   background-position: bottom right;
   position: absolute;
   top: 85%;
